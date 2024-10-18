@@ -11,18 +11,18 @@
 <body>
 
     <div class="container">
-        <img id="QrCodeImage" class="img">
+        <img id="QrCodeImage">
         <div class="img1">
             <input placeholder="Entrez une Url" id="QrCodeInput" class="input" value=""></input>
         </div>
         <div class="center">
-
             <button id="QrCodeButton" class="btn">Generate</button>
-            <button id="QrCodeButtonDownload" class="down"><img src="circle-down-solid.svg" class="svg">JPG</button>
+            <a id="QrCodeButtonDownload" class="down" download="QrCode.jpg">
+                <img src="circle-down-solid.svg" class="svg">JPG</a>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.4.4/qrcode.js"
         integrity="sha512-oxrVyBhqnzQ0BzuM0A/6dEIk0alz0p4SpDRaWvtuUoarIc8rnL5lVniHG5Dp21MRFojcQcmKHjaskNXhSaUPPw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
