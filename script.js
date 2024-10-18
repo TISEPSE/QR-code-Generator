@@ -17,9 +17,7 @@ const input = document.getElementById('QrCodeInput');
                 .then(dataUrl => {
                     // Affiche l'image QR code
                     img.src = dataUrl;
-
-                    // Met à jour l'attribut href pour le bouton de téléchargement
-                    downloadButton.href = dataUrl; // Attribue le dataURL pour le téléchargement
+                    downloadButton.href = dataUrl;
                 })
                 .catch(err => {
                     console.error(err);

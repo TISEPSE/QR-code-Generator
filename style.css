@@ -36,6 +36,8 @@ body {
     margin-bottom: auto;
     border-radius: 5px;
     height: 230px;
+    color: red;
+    background-color: green;
 }
 
 .img1 {
