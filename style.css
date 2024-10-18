@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #1E3E62; 
+    background-color: #cadaeb; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ input {
 .svg{
     position: absolute;
     height: 20px;
-    left: 25px;
+    left: 30px;
 }
 
 .btn {
@@ -99,9 +99,10 @@ input {
 
 .down {
     background-color: #f39c12;
-    padding-left: 3.5rem;
-    padding-top:10px;
+    padding-left: 4rem;
+    padding-top:12px;
     border:3px solid transparent; 
+    text-decoration: none;
 }
 
 .btn:hover, .down:hover {
