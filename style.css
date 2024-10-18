@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    box-sizing: border-box; /* Pour assurer une meilleure gestion des marges et des bordures */
+    font-family: 'Roboto', sans-serif; /* Police plus moderne */
+}
+
+body {
+    background-color: #f4f4f9; /* Couleur de fond douce */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* S'assure que le contenu est centré */
+}
+
+.container {
+    position: relative;
+    height: 500px;
+    width: 400px; 
+    border-radius: 20px;
+    background: linear-gradient(145deg, #0b32a8, #0a2b8e);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1), 
+                -20px -20px 50px rgba(255, 255, 255, 0.5);
+    padding: 2em;
+}
+
+.center {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em; /* Espace entre les boutons */
+}
+
+.img {
+    margin-top: 1.5em;  
+    margin-bottom: 1.5em;
+    margin-left: 3.55em;
+    height: 220px;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: 0.3s ease; 
+}
+
+.img:hover {
+    transform: scale(1.05); 
+}
+
+input {
+    height: 45px;
+    width: 100%;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2); 
+    color: #ffffff;
+    padding-left: 1em;
+    margin-bottom: 1.5em;
+    outline: none;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #6cddfc;
+}
+
+::placeholder {
+    color: #fefefe79;
+    font-size: 1em;
+}
+
+.btn, .down {
+    position: relative;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 50px;  
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.svg{
+    position: absolute;
+    height: 20px;
+    left: 35px;
+}
+
+.btn {
+    background-color: #6cddfc;
+    border:3px solid transparent; 
+}
+
+.down {
+    background-color: #f39c12;
+    padding-left: 15px;
+    border:3px solid transparent; 
+}
+
+.btn:hover, .down:hover {
+    transform: translateY(-3px); 
+    border:3px solid #fefefe;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
