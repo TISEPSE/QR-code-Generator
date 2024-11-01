@@ -23,11 +23,9 @@ body {
     width: 400px; 
     border-radius: 20px;
     background: linear-gradient(145deg, #5a81f5, #002fbd);
-    box-shadow: 20px 20px 50px rgba(0, 0, 50, 0.2),
-                -20px -20px 50px rgba(255, 255, 255, 0.3); 
+    box-shadow: 20px 20px 50px rgba(0, 0, 50, 0.2),-20px -20px 50px rgba(255, 255, 255, 0.3); 
     padding: 2em;
 }
-
 
 #QrCodeImage {
     max-width: 100%;
