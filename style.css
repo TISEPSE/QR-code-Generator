@@ -7,18 +7,17 @@
 }
 
 body {
-    background-color: #cadaeb; 
+    background-color: #cadaeb;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh; /* Assure un centrage vertical */
 }
 
 .container {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 200px;
     height: 500px;
     width: 400px; 
     border-radius: 20px;
@@ -29,10 +28,10 @@ body {
 
 #QrCodeImage {
     max-width: 100%;
-    height: auto;
-    margin-bottom: auto;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
     border-radius: 5px;
-    height: 230px;
+    height: 250px;
     color: red;
     background-color: green;
 }
@@ -42,6 +41,7 @@ body {
     justify-content: center;
     width: 100%;
     margin-bottom: 1em;
+    margin-top: 2.5em;
 }
 
 input {
@@ -53,7 +53,6 @@ input {
     color: #ffffff;
     padding-left: 1em;
     outline: none;
-    margin-bottom: 1em; /* Espacement entre l'input et les boutons */
 }
 
 .center {
